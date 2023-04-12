@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T22:47:54 IST" name="Default suite" finished-at="2023-03-27T22:47:55 IST" duration-ms="1092">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-27T22:47:54 IST" name="Default test" finished-at="2023-03-27T22:47:55 IST" duration-ms="1092">
+      <class name="TestRunner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:54 IST" name="setUpClass" finished-at="2023-03-27T22:47:54 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-27T22:47:55 IST" duration-ms="313" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add  new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.AddUserSteps.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.AddUserSteps.driver" is null
+at Steps.AddUserSteps.userShouldLoginAsAnd(AddUserSteps.java:13)
+at ✽.user should login as "admin" and "manager"(src\test\java\features\AddUser.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-27T22:47:55 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add  new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.AddUserSteps.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.AddUserSteps.driver" is null
+at Steps.AddUserSteps.userShouldLoginAsAnd(AddUserSteps.java:13)
+at ✽.user should login as "admin" and "manager"(src\test\java\features\AddUser.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-27T22:47:55 IST" duration-ms="15" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login should be success"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null
+at Steps.LoginSteps.userEntersTheUsernameAs(LoginSteps.java:40)
+at ✽.user enters the username as "admin"(src\test\java\features\Login.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-27T22:47:55 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login should be fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null
+at Steps.LoginSteps.userEntersTheUsernameAs(LoginSteps.java:40)
+at ✽.user enters the username as "admi"(src\test\java\features\Login.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-27T22:47:55 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login should be fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Actitime application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "Steps.LoginSteps.driver" is null
+at Steps.LoginSteps.userEntersTheUsernameAs(LoginSteps.java:40)
+at ✽.user enters the username as "adm"(src\test\java\features\Login.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@647e447]" started-at="2023-03-27T22:47:55 IST" name="tearDownClass" finished-at="2023-03-27T22:47:55 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
